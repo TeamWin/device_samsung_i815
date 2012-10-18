@@ -25,3 +25,5 @@ $(call inherit-product-if-exists, vendor/samsung/smdk4210-tab/smdk4210-tab_base.
 $(call inherit-product, $(LOCAL_PATH)/i815_base.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/i815/i815_base.mk)
+
+PRODUCT_NAME := i815
